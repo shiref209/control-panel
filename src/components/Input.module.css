@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+input{
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 0.4rem;
+    height: 1.5rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+input:focus{
+    border:2px solid rgb(120, 68, 143);
+    outline: none;
+}
+label{
+    font-weight: 400;
+}

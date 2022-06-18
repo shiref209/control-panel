@@ -1,0 +1,49 @@
+/* This module is for styling Login,SignUp and ForgotPassword pages */
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card img{
+    width:60%;
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:1rem 1rem;
+    width: 30%;
+    padding:3rem 3rem;
+}
+hr{
+    background-color: rgb(120, 68, 143);
+    width: 4.5rem;
+    margin: initial;
+    height: 0.05rem;
+    margin-top: -1rem;
+}
+.text{
+    margin-top: 2rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+.text span{
+    color: grey;
+    font-weight: 400;
+}
+a{
+    margin-top: 0.5rem;
+    align-self: self-end;
+    font-size: 13px;
+}
+button{
+    margin-top: 4rem;
+    height: 2rem;
+    background-color:rgb(120, 68, 143) ;
+    color: white;
+    border-style: none;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
