@@ -7,7 +7,7 @@ const Input = (props) => {
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
   const [error, setError] = useState(false);
-
+// validating email and password
   const validateUser = (event) => {
     const { value } = event.target;
     if (value.includes("@") && value.includes(".com") && value.length !== 0) {
@@ -22,8 +22,9 @@ const Input = (props) => {
       setError(false);
     }
   };
+  // lifting email and password to parent
   const formSubmit = () => {
-    if (email && password) {
+    if (email && password && !error) {
       handleSubmit(email, password);
     } else {
       setError(true);
