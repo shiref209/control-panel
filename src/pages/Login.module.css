@@ -22,13 +22,17 @@ hr{
     margin-top: -1rem;
 }
 .text{
-    margin-top: 2rem;
+    margin: 2rem 0;
     font-size: 12px;
     font-weight: 500;
 }
 .text span{
     color: grey;
     font-weight: 400;
+    margin-bottom: 2rem;
+}
+input{
+    margin-bottom:2rem ;
 }
 a{
     margin-top: 0.5rem;
@@ -36,7 +40,6 @@ a{
     font-size: 13px;
 }
 button{
-    margin-top: 4rem;
     height: 2rem;
     background-color:rgb(120, 68, 143) ;
     color: white;
@@ -46,4 +49,10 @@ button{
     -moz-border-radius: 0.4rem;
     -ms-border-radius: 0.4rem;
     -o-border-radius: 0.4rem;
+}
+.error{
+    font-size: 10px;
+    color: rgb(218, 113, 113);
+    margin-top: -1rem;
+    
 }
