@@ -1,0 +1,16 @@
+.button{
+    padding-left: 19px;
+    margin-right: 2.5px;
+background: var(--unnamed-color-a9abd3) 0% 0% no-repeat padding-box;
+}
+
+.button span{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/16px var(--unnamed-font-family-nunito);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+}
+.button svg{
+
+color: var(--unnamed-color-ffffff)
+}

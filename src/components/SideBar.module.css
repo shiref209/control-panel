@@ -1,0 +1,28 @@
+.bar{
+    width: 87px;
+}
+.container{
+    width: 72px;
+    padding-top: 29px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+}
+.card{
+    
+    width: 72px;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.card svg{
+    width: 21px;
+height: 21px;
+color: var(--unnamed-color-6c7383);
+}
+.card div:hover{
+    background: var(--unnamed-color-706fa7)
+}
+.card div:hover svg{
+    color: var(--unnamed-color-ffffff)
+}

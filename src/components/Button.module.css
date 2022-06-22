@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 3px #00000061;
+  border-radius: 5px;
+  padding: 8px 22px;
+}
+.container svg {
+  color: var(--unnamed-color-ffffff);
+height: 20px;
+}
+.container span {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) 15px / var(--unnamed-line-spacing-14)
+    var(--unnamed-font-family-nunito);
+  letter-spacing: var(--unnamed-character-spacing-0-01);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  
+}
