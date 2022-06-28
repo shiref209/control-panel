@@ -1,15 +1,25 @@
 .bar{
     width: 87px;
+    z-index: 999999;
+    position: relative;
 }
 .container{
-    width: 72px;
+    width:72px;
     padding-top: 29px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    height: 100vh;
+}
+.expand-icon{
+    position: absolute;
+    top: 55%;
+    right: 2px;
+}
+.expand-icon:hover{
+    font-size: 20px;
 }
 .card{
-    
-    width: 72px;
-    height: 418px;
+    box-sizing: border-box;
+    width: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,9 +30,11 @@
 height: 21px;
 color: var(--unnamed-color-6c7383);
 }
-.card div:hover{
-    background: var(--unnamed-color-706fa7)
+
+.expand-bar{
+    width: 292px;
 }
-.card div:hover svg{
-    color: var(--unnamed-color-ffffff)
+.expand-container{
+    width: 272px;
 }
+

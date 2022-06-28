@@ -8,6 +8,7 @@ import { AiFillDelete, AiOutlineCheck } from "react-icons/ai";
 import Button from "./Button";
 import FilterButton from "./FilterButton";
 import SearchBar from "./SearchBar";
+import ContentTable from "./ContentTable";
 
 
 const HomeContent = () => {
@@ -42,7 +43,7 @@ const HomeContent = () => {
         <SearchBar/>
         
       </div>
-      
+      <ContentTable/>
     </div>
   );
 };

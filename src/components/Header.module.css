@@ -28,8 +28,28 @@
   gap:20px;
 }
 .icon{
+  position: relative;
     width: 22px;
 height: 27px;
+color: var(--unnamed-color-ffffff);
+}
+.icon>*{
+  color: inherit;
+}
+.icon div{
+  background: var(--unnamed-color-a9abd3) 0% 0% no-repeat padding-box;
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+    top: -14px;
+    right: -3px;
+    height: 90%;
+}
+.icon span{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 17px/28px var(--unnamed-font-family-roboto);
+letter-spacing: var(--unnamed-character-spacing-0-01);
+color: var(--unnamed-color-ffffff);
 }
 .user-img{
   display: flex;

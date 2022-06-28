@@ -1,9 +1,10 @@
 .container{
     width: 387px;
 height: 28px;
-position: absolute;
+align-self: flex-end;
 border-bottom:3px solid var(--unnamed-color-706fa7);
 right: 10px;
+position: absolute;
 }
 input{
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-nunito);
